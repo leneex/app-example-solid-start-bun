@@ -1,0 +1,33 @@
+# SolidStart на Bun
+
+Пример приложения [SolidStart](https://start.solidjs.com/) на [Bun](https://bun.sh/).
+
+## Параметры деплоя
+
+Выберите рантайм **Bun**, фреймворк **SolidStart** и тип приложения **frontend**. Для frontend будет опубликована статическая сборка.
+
+| Параметр | Значение |
+| --- | --- |
+| Фреймворк | SolidStart |
+| Версия Bun | 1.2 |
+| Тип приложения | `frontend` |
+| Команда сборки | `bun run build` |
+| Директория сборки | `.output/public` |
+
+SolidStart доступен на Bun. В каталоге API нет SolidStart для Deno.
+
+## <a name="dev"></a>Локальный запуск проекта
+
+```bash
+# установка зависимостей
+bun install
+
+# запуск в режиме разработки
+bun run dev
+
+# сборка для продакшн
+bun run build
+
+# просмотр собранной статической версии
+bun run preview
+```
